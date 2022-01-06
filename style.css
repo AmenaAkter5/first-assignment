@@ -11,7 +11,7 @@ h1{
 .special-color{
     color: blue;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .link-button{
@@ -33,4 +33,7 @@ section{
     width: 80%;
     height: 564.94px;
     padding-bottom: 50%;
+}
+.Mission{
+    background-color: rgba(238, 224, 224, 0.637);
 }
