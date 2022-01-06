@@ -3,15 +3,22 @@ body{
     margin: 0px;
 }
 .first-heading-area{
-    border-left: 7px solid aqua;
+    border-left: 7px solid purple;
     padding-left: 10px;
 }
 h1{
     font-size: 50px;
     font-weight: 900;
 }
+h2{
+    font-size: 30px;
+    font-weight: 900;
+}
 .blue-color{
     color: blue;
+}
+.red-color{
+    color: red;
 }
 section{
         padding: 0;
@@ -40,17 +47,17 @@ section{
     height: 564.94px;
     padding-bottom: 50%;
 }
-#mision-text{
+.mision-text{
     text-align: center;
 }
 .Mission{
-    background-color: #cfcbc7;
+    background-color: rgb(225, 241, 241);
 }
 .Vision{
-    background-color: rgb(245, 228, 198);
+    background-color: rgb(220, 231, 240);
 }
 .Goals{
-    background-color: rgb(248, 221, 197);
+    background-color: rgb(250, 234, 221);
 }
 .mission-area{
     margin: 10px;
@@ -59,11 +66,9 @@ section{
 #my-vision{
     margin-bottom: 300px;
 }
-footer{
-    margin: 0;
-    background-color: black;
-    color: white;
-    text-align: center;
+#Vision-declare{
+    font-size: 20px;
+    font-weight: 800;
 }
 .Focus-area{
     margin-left: 30px;
@@ -80,7 +85,20 @@ footer{
     margin-left: 30px;
     margin-right: 30px;
 }
+.Dream-area{
+    margin-left: 30px;
+    margin-right: 30px;
+}
 .alignment{
     text-align: justify;
     margin-bottom: 25px;
+}
+footer{
+    margin: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer p{
+    font-size: 20px;
 }
