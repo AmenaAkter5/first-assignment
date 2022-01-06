@@ -54,7 +54,7 @@ section{
     background-color: rgb(225, 241, 241);
 }
 .Vision{
-    background-color: rgb(220, 231, 240);
+    background-color: rgb(245, 225, 228);
 }
 .Goals{
     background-color: rgb(250, 234, 221);
@@ -93,12 +93,16 @@ section{
     text-align: justify;
     margin-bottom: 25px;
 }
-footer{
-    margin: 0;
-    background-color: black;
-    color: white;
-    text-align: center;
+#footer-white{
+    color: rgb(255, 255, 255);
+    }
+#footer-red{
+    color: red;
 }
-footer p{
-    font-size: 20px;
+#footer-bg{
+    text-align: center;
+    background-color: black;
+}
+footer{
+    padding: 5px;
 }
